@@ -7,6 +7,6 @@ Namun dalam proyek ini belum sepenuhnya mengikuti pola arsitektur atau pola desa
 Proyek tersebut terdiri dari beberapa file JavaScript yang menjalankan server menggunakan Express.js dan melakukan beberapa operasi CRUD (Create, Read, Update, Delete) pada data pengguna dalam bentuk array di dalam memori. Namun, tidak ada pemisahan yang jelas antara komponen-komponen arsitektur seperti Model, View, dan Controller.
 
 
-Link Dokumentasi api
 
+<p> Link Dokumentasi api </p>
 <a href="https://documenter.getpostman.com/view/27721669/2s93sXdEr9">Dokumentasi Api</a>
