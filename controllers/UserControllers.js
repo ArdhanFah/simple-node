@@ -69,7 +69,7 @@ const destroyUser = async(req, res) => {
         })
         res.status(200).json({msg: "Data Success Deleted"})
     } catch (error) {
-        res.status(401).json({msg: "Data Can't Delete"})
+        res.status(404).json({msg: "Data Can't Delete"})
     }
 }
         
@@ -102,5 +102,6 @@ const loginUser = async(req, res) => {
       
 
 }
+
 
 module.exports = { getUsers, getUsersById, createUser, verifyToken, loginUser, destroyUser};

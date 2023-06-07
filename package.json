@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "test": "node test/test.auth.js"
+    "test": "npx mocha test/test.auth.js"
   },
   "author": "",
   "license": "ISC",
